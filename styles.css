@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 300px;
+    background-color: #121212;
+    padding: 10px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo i {
+
+    font-size: 30px;
+    
+
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+    
+}
+
+.library i, .library p {
+    font-size: 20px;
+    color: #b7b3b6;
+    cursor: pointer;
+}
+
+.playlist, .podcast {
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+    
+}
+
+.playlist button, .podcast button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+.playlist h5, .podcast h5{
+    font-size: 20px;
+}
+
+.playlist p, .podcast p {
+
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.footer{
+   margin-top: 100px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #a7a7a7;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.lang-button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-top: 16px;
+}
+
+main{
+    padding: 24px;
+    flex-grow: 1;
+    overflow-y: auto;
+   
+   
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.search-bar input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+    margin-left: 8px;
+    outline: none;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+    
+
+}
+
+.grid-item{
+    background-color: #121212;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+.grid-item:hover{
+    background-color: #282828;
+}
+
+
+.grid-item .imagem{
+    
+    border-radius: 200px;
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+   
+}
+
+.album{
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.letra{
+    
+    margin-top: 10px;
+    
+}
+
+
+
